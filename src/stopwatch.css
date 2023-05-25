@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.stopwatch-container{
+    /* background-color: red; */
+    border: 2px solid #3838be;
+    border-radius: 10px 10px 0 0;
+    height: 40vh;
+    width: 60vw;
+        display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+}
+.stopwatch-container h1{
+    border-radius: 6px 6px 0 0;
+    text-align: center;
+    background-color: #3838be;
+}
+.stopwatch-time {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+}
+
+.stopwatch-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch-buttons button {
+    margin: 20px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #3838be;
+    border: 2px solid #3838be;
+    background-color: transparent;
+    border-radius: 20px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+.stopwatch-buttons button:hover {
+
+    color: white;
+    background-color: #3838be;
+}
+
+/* .stopwatch-buttons button:first-child {
+    background-color: green;
+}
+
+.stopwatch-buttons button:last-child {
+    background-color: red;
+} */

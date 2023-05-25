@@ -1,0 +1,80 @@
+.countdown {
+  border: 2px solid #3838be;
+  border-radius: 10px 10px 0 0;
+  height: 50vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+}
+.countdown h1 {
+  border-radius: 6px 6px 0 0;
+  text-align: center;
+  background-color: #3838be;
+  color: white;
+}
+.countdown-time {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+}
+
+.countdown-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    /* background-color: red; */
+    /* display: flex; */
+}
+
+.countdown-input-individual label{
+    /* background-color: blue; */
+    padding-right: 25px;
+}
+.countdown-input-individual input{
+    /* background-color: blue; */
+    padding: 2px;
+}
+.countdown-input-individual input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+/* buttons */
+.countdown-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.countdown-buttons button {
+    margin: 20px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #3838be;
+    border: 2px solid #3838be;
+    background-color: transparent;
+    border-radius: 20px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+.countdown-buttons button:first-child {
+    padding: 10px 40px;
+    box-sizing: content-box;
+    /* min-width: 5vw; */
+   
+}
+
+.countdown-buttons button:hover {
+
+    color: white;
+    background-color: #3838be;
+}
